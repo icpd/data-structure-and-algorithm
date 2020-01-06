@@ -1,3 +1,3 @@
-module 聊天室
+module demo
 
 go 1.13
