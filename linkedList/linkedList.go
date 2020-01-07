@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// Node 节点结构体
 type Node struct {
 	Value int
 	Next  *Node
@@ -77,6 +78,37 @@ func size(t *Node) int {
 	return i
 }
 
+func delNode(t *Node, v int) bool {
+	if t == nil {
+		fmt.Println("empty list!")
+		return false
+	}
+
+	if !lookupNode(t, v) {
+		fmt.Println("Node does not exist!")
+		return false
+	}
+
+	var pre *Node
+	for t != nil {
+		if t.Value == v {
+			if pre == nil {
+				t.Value = t.Next.Value
+				t.Next = t.Next.Next
+				return true
+			}
+
+			pre.Next = t.Next
+			return true
+		}
+
+		pre = t
+		t = t.Next
+	}
+
+	return false
+}
+
 func main() {
 	fmt.Println(root)
 	root = nil
@@ -104,4 +136,11 @@ func main() {
 	} else {
 		fmt.Println("Node does not exist!")
 	}
+
+	delNode(root, 45)
+	traverse(root)
+	delNode(root, 1)
+	traverse(root)
+	delNode(root, -1)
+	traverse(root)
 }
