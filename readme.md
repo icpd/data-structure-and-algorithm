@@ -8,7 +8,8 @@
 ├── hashTable               # 哈希表
 │   └── hash_table.go
 ├── linkedList              # 链表
-│   └── linkedList.go
+│   ├── doublyLList.go          # 双向链表
+│   └── linkedList.go           # 单向链表
 ├── go.mod
 └── readme.md
 ```
