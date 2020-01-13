@@ -5,6 +5,8 @@
 ├── chat                    # 聊天室
 │   ├── client.go               # 客户端
 │   └── server.go               # 服务端
+├── container               # 标准库container包
+│   └── list.go                 # container/list
 ├── hashTable               # 哈希表
 │   └── hash_table.go
 ├── linkedList              # 链表
