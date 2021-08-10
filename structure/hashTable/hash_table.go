@@ -73,7 +73,7 @@ func main() {
 		rand.Seed(time.Now().UnixNano())
 		v := rand.Intn(300)
 		if !lookup(hash, v) {
-			fmt.Println(v,"is not in the hash table!")
+			fmt.Println(v, "is not in the hash table!")
 		}
 	}
 }

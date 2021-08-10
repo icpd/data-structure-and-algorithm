@@ -1,3 +1,3 @@
-data-structure-and-algorithm
+module data-structure-and-algorithm
 
 go 1.13
