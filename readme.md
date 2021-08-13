@@ -12,4 +12,8 @@
 
 ### 算法
 ### 排序
-[冒泡](/algorithm/sort/bubble_sort.go)    
+[冒泡](/algorithm/sort/bubble_sort.go)   
+[插入](/algorithm/sort/insert_sort.go)  
+[选择](/algorithm/sort/select_sort.go)  
+[归并](/algorithm/sort/merge_sort.go)  
+[快排](/algorithm/sort/quick_sort.go)  
