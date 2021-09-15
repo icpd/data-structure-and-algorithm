@@ -1,6 +1,6 @@
 ### 数据结构  
 [二叉树](/structure/binaryTree/binary_tree.go)  
-[哈希表](/structure/binaryTree/hash_table.go)  
+[哈希表](/structure/hashTable/hash_table.go)  
 [单向链表](/structure/linkedList/linkedList.go)  
 [双向链表](/structure/linkedList/doublyLList.go)
 
