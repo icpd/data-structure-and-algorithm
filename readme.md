@@ -11,6 +11,8 @@
 
 
 ### 算法
+[二分查找](/algorithm/binary_search.go)
+
 ### 排序
 [冒泡](/algorithm/sort/bubble_sort.go)   
 [插入](/algorithm/sort/insert_sort.go)  
