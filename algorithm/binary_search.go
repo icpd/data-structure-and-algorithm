@@ -11,10 +11,10 @@ func BinarySearch(target int, sli []int) int {
 		if sli[mid] == target {
 			return mid
 		}
-		if sli[mid] > target {
+		if target < sli[mid] {
 			right = mid - 1
 		}
-		if sli[mid] < target {
+		if target > sli[mid] {
 			left = mid + 1
 		}
 	}
