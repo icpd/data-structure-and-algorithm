@@ -11,7 +11,8 @@
 
 
 ### 算法
-[二分查找](/algorithm/binary_search.go)
+[二分查找](/algorithm/search/binary_search.go)  
+[权重负载均衡](/algorithm/weight_round_robin.go)
 
 ### 排序
 [冒泡](/algorithm/sort/bubble_sort.go)   
