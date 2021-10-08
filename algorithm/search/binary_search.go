@@ -1,4 +1,4 @@
-package algorithm
+package search
 
 func BinarySearch(target int, sli []int) int {
 	if len(sli) < 0 {
